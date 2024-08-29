@@ -1,0 +1,26 @@
+.prising__subtitel2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #ADADAD;
+}
+
+.prising__subtitel_purple2 {
+    color: #ffffff;
+    position: relative;
+    text-shadow: 5px 5px 5px rgb(13, 13, 247);
+
+}
+.prising__subtitel_purple2::after{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 110%;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 22px;
+    right: -6px;
+    border-radius: 999px;
+    z-index: -1;
+}
